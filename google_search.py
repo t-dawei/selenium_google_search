@@ -144,5 +144,5 @@ if __name__ == '__main__':
     # 方法1：（隐式等待 + bs4） + 输入框输入搜索
     search(['Google', 'Huawei', 'Apple'])
 
-    # 方法2：（显式等待 + bs4）+ 链接构造搜索
+    # 方法2：（显式等待 + selenium解析）+ 链接构造搜索
     # search_Bylink(['google', 'Huawei', 'Apple'])
